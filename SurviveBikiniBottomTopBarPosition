@@ -1,4 +1,4 @@
---- INDONESIAN 🇮🇩
+--- INDO
  local allowed = {
     [111471464387284] = true,
     [87571927272049] = true,
@@ -11,15 +11,12 @@ local lp = game:GetService("Players").LocalPlayer
 local pg = lp:WaitForChild("PlayerGui")
 
 pcall(function()
-    pg.TopBarMenuExxHub.Frame.Position = UDim2.new(0, 205, 0, 60)
-    pg.TopBarMenuExxHub.TextButton.Position = UDim2.new(0, 275, 0, 12)
-
     pg.TopBarServerHOPUI.ToggleButton.Position = UDim2.new(0, 999, 0, 12)
     pg.TopBarServerHOPUI.Frame.Position = UDim2.new(0, 999, 0, 60)
 end)
 
 --- GLOBAL 🌎
- local allowed = {
+local allowed = {
     [111471464387284] = true,
     [87571927272049] = true,
     [0] = false,
@@ -31,9 +28,6 @@ local lp = game:GetService("Players").LocalPlayer
 local pg = lp:WaitForChild("PlayerGui")
 
 pcall(function()
-    pg.TopBarMenuExxHubGLBL.Frame.Position = UDim2.new(0, 205, 0, 60)
-    pg.TopBarMenuExxHubGLBL.TextButton.Position = UDim2.new(0, 275, 0, 12)
-
     pg.TopBarServerHOPUI.ToggleButton.Position = UDim2.new(0, 999, 0, 12)
     pg.TopBarServerHOPUI.Frame.Position = UDim2.new(0, 999, 0, 60)
 end)
