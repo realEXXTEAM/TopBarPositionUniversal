@@ -9,5 +9,7 @@ if not allowed[game.PlaceId] then return end
 local lp = game:GetService("Players").LocalPlayer
 local pg = lp:WaitForChild("PlayerGui")
 
-pcall(function() pg.ExxHubSurviveBikiniBottomUI.ToggleButton.Position = UDim2.new(1, -105, 0, 10)
+pcall(function() 
+pg.Map.MapToggle.Position = UDim2.new(1, -150, 0.027777778, 0) 
+pg.ExxHubSurviveBikiniBottomUI.ToggleButton.Position = UDim2.new(1, -105, 0, 10)
 end)
