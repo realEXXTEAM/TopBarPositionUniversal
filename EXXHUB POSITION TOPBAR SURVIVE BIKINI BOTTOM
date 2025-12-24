@@ -10,6 +10,9 @@ local lp = game:GetService("Players").LocalPlayer
 local pg = lp:WaitForChild("PlayerGui")
 
 pcall(function() 
-pg.Map.MapToggle.Position = UDim2.new(1, -150, 0, 10) 
-pg.ExxHubSurviveBikiniBottomUI.ToggleButton.Position = UDim2.new(1, -105, 0, 10)
+pg.Map.MapToggle.Position = UDim2.new(1, -150, 0, 12) 
+pg.ExxHubSurviveBikiniBottomUI.ToggleButton.Position = UDim2.new(1, -105, 0, 12)
 end)
+  
+  task.wait(1) 
+end
