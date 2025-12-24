@@ -2,7 +2,8 @@
 local allowed = {
     [2753915549] = true, -- Sea 1
     [4442272183] = true, -- Sea 2
-    [7449423635] = true  -- Sea 3
+    [7449423635] = true, -- Sea 3
+    [73902483975735] = true -- Dungeons
 }
 
 if not allowed[game.PlaceId] then return end
@@ -22,7 +23,8 @@ end)
 local allowed = {
     [2753915549] = true, -- Sea 1
     [4442272183] = true, -- Sea 2
-    [7449423635] = true  -- Sea 3
+    [7449423635] = true, -- Sea 3
+    [73902483975735] = true -- Dungeons
 }
 
 if not allowed[game.PlaceId] then return end
