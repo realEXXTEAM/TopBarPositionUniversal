@@ -34,7 +34,7 @@ local pg = lp:WaitForChild("PlayerGui")
 
 pcall(function()
     pg.TopBarMenuExxHubGLBL.Frame.Position = UDim2.new(0, 115, 0, 60)
-    pg.TopBarMenuExxHubGLBL.TextButton.Position = UDim2.new(1, 170, 0, 12)
+    pg.TopBarMenuExxHubGLBL.TextButton.Position = UDim2.new(0, 170, 0, 12)
 
     pg.TopBarServerHOPUI.ToggleButton.Position = UDim2.new(0, 999, 0, 12)
     pg.TopBarServerHOPUI.Frame.Position = UDim2.new(0, 999, 0, 60)
