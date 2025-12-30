@@ -1,18 +1,3 @@
-local header = game:GetService("Players").LocalPlayer.PlayerGui:WaitForChild("Inventory"):WaitForChild("Inventory"):WaitForChild("Main"):WaitForChild("Header")
-
-header.Size = UDim2.new(0, 345, 0, 45)
-
-local title = header:WaitForChild("Title")
-title.Text = "ITEM JEMBUD 🗿"
-
-title:GetPropertyChangedSignal("Text"):Connect(function()
-    if title.Text ~= "ITEM JEMBUD 🗿" then
-        title.Text = "ITEM JEMBUD 🗿"
-    end
-end)
-
-
-
 -- Script Indonesian Position
 local allowed = {
     [2753915549] = true, -- Sea 1
