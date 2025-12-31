@@ -3,6 +3,7 @@ local allowed = {
     [2753915549] = true, -- Sea 1
     [4442272183] = true, -- Sea 2
     [7449423635] = true, -- Sea 3
+    [100117331123089] = true, -- Sea 3 XMAS
     [73902483975735] = true -- Dungeons
 }
 
@@ -24,6 +25,7 @@ local allowed = {
     [2753915549] = true, -- Sea 1
     [4442272183] = true, -- Sea 2
     [7449423635] = true, -- Sea 3
+    [100117331123089] = true, -- Sea 3 XMAS
     [73902483975735] = true -- Dungeons
 }
 
