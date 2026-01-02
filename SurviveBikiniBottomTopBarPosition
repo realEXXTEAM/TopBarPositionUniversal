@@ -11,7 +11,7 @@ local lp = game:GetService("Players").LocalPlayer
 local pg = lp:WaitForChild("PlayerGui")
 
 pcall(function()
-    pg.TopBarServerHOPUI.ToggleButton.Position = UDim2.new(0, 999, 0, 12)
+    pg.TopBarServerHOPUI.ToggleButton.Position = UDim2.new(0, 9999, 0, 12)
     pg.TopBarServerHOPUI.Frame.Position = UDim2.new(0, 999, 0, 60)
 end)
 
@@ -28,6 +28,6 @@ local lp = game:GetService("Players").LocalPlayer
 local pg = lp:WaitForChild("PlayerGui")
 
 pcall(function()
-    pg.TopBarServerHOPUI.ToggleButton.Position = UDim2.new(0, 999, 0, 12)
-    pg.TopBarServerHOPUI.Frame.Position = UDim2.new(0, 999, 0, 60)
+    pg.TopBarServerHOPUI.ToggleButton.Position = UDim2.new(0, 9999, 0, 12)
+    pg.TopBarServerHOPUI.Frame.Position = UDim2.new(0, 9999, 0, 60)
 end)
